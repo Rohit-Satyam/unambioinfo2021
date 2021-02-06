@@ -27,7 +27,7 @@ summarylength = 60
 	themeColor = "theme-base-08"
     # sidebar, copyright & license
     logoimage = "/img/brand.svg"
-	image = "/img/UNAM_negro.svg"
+	#image = "/img/UNAM_negro.svg"
     copyright = "unambioinfo2021"
     since = 2021
     license = "CC BY-SA 4.0"
