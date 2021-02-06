@@ -1,5 +1,5 @@
 ## Basic Configuration
-baseurl = "https://example.com/"
+baseurl = "https://unambioinfo2021.netlify.app"
 languageCode = "en"
 
 title = ""
