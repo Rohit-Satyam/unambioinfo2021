@@ -22,7 +22,7 @@ summarylength = 60
     author = "Author"
     title = "Title"
     # description = "..."
-    authorimage = "/img/favicon.jpg"
+    authorimage = "/static/img/favicon.jpg"
     dateformat = "Jan 2, 2006"
 	themeColor = "theme-base-08"
     # sidebar, copyright & license
