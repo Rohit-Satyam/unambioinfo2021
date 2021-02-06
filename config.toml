@@ -1,0 +1,86 @@
+## Basic Configuration
+baseurl = "https://example.com/"
+languageCode = "en"
+
+title = ""
+theme = "hyde-hyde"
+
+  
+
+## Hugo Built-in Features
+# disqusShortname = "https-htr3n-github-io"
+# googleAnalytics = "UA-112764962-1"
+# enableRobotsTXT = true
+# enableEmoji = true
+
+summarylength = 60
+
+# paginate = 5
+
+## Site Settings
+[params]
+    author = "Author"
+    title = "Title"
+    # description = "..."
+    authorimage = "/img/favicon.jpg"
+    dateformat = "Jan 2, 2006"
+	themeColor = "theme-base-08"
+    # sidebar, copyright & license
+    logoimage = "/img/brand.svg"
+	image = "/img/UNAM_negro.svg"
+    copyright = "unambioinfo2021"
+    since = 2021
+    license = "CC BY-SA 4.0"
+    licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+    showBuiltWith = false
+
+    # https://highlightjs.org
+    highlightjs = true
+    highlightjsstyle = "github"
+    #logoimages = "/img/UNAM_negro.svg"
+    # please choose either GraphComment or Disqus or Utterances
+    #GraphCommentId = "..."
+    #UtterancesRepo = "..." # https://utteranc.es/
+    #UtterancesIssueTerm = "..." # pathname, url, title, og:title
+    #UtterancesTheme = "..." # github-light or github-dark
+
+    # Table of contents
+    #toc = none, "hugo", or "tocbot"
+
+## Social Accounts
+[params.social]
+    #github = "<username>"
+    #instagram = "<username>"
+    #xing = "<username>"
+    #linkedin = "<username>"
+    #twitter = "<username>"
+    #facebook = "<username>"
+    #microblog = "<username>"
+    #stackoverflow = "<username>"
+    #telegram = "<username>"
+    # orcid = "<xxxx-xxxx-xxxx-xxxx>"
+    #email = "your-email@example.com"
+    # gravatar = "your-email@example.com"
+    # pgpkey = "<path-to-your-key-in-/static>"
+
+## Main Menu
+[[menu.main]]
+    name = "Researchers"
+    weight = 100
+    identifier = "researchers"
+    url = "http://132.248.227.114/Researchers"
+[[menu.main]]
+    name = "TAs"
+    identifier = "TA"
+    weight = 200
+    url = "http://132.248.227.114/TAs"
+[[menu.main]]
+    name = "Projects"
+    identifier = "projects"
+    weight = 300
+    url = "http://132.248.227.114/Projects"
+[[menu.main]]
+    name = "Agenda"
+    identifier = "agenda"
+    weight = 300
+    url = "http://132.248.227.114/Program"
